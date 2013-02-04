@@ -26,6 +26,24 @@ The program will tell you
  * How long time is spent running the loops with good locality
  * The difference between the two
 
+### Example output
+
+Here are a couple outputs when run on my machine:
+
+    $ ./localitytest 1000
+    Running test with 1000 iterations.
+    Test array is 2304000 bytes in size.
+    Time spent running bad locality: 2.531270113 sec.
+    Time spent running good locality: 1.863334975 sec.
+    Difference between averages: 0.667935138 sec.
+
+    $ ./localitytest 10000
+    Running test with 10000 iterations.
+    Test array is 2304000 bytes in size.
+    Time spent running bad locality: 25.254116078 sec.
+    Time spent running good locality: 18.713775802 sec.
+    Difference between averages: 6.540340276 sec.
+
 ## Author
 
 Author:  
